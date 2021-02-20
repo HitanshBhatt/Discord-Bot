@@ -7,12 +7,12 @@ public class Commands extends ListenerAdapter{
 	{
 		if(e.getMessage().getContentRaw().equalsIgnoreCase("!info"))
 		{
-			e.getChannel().sendMessage("Hi, I'm an admin bot managed by @Hitansh Bhatt#7760").queue();
+			e.getChannel().sendMessage("ADD UFP").queue();
 		}
 
 		else if (e.getMessage().getContentRaw().equalsIgnoreCase("!link"))
 		{
-			e.getChannel().sendMessage("https://discord.gg/tBJb77F5MV").queue();
+			e.getChannel().sendMessage("ADD CHANNEL LINK").queue();
 		}
 	}
 
