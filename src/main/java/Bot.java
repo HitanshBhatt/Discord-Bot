@@ -21,36 +21,7 @@ public class Bot extends ListenerAdapter{
 		jda.addEventListener(PingPong);
 		Commands commands = new Commands();
 		jda.addEventListener(commands);
-		/*try
-		{	
-			jda =  ((JDABuilder) jda).build();
-		} catch (LoginException e)
-		{
-			e.printStackTrace();
-		}
 		
-		/*JDABuilder jdabuilder = JDABuilder.createDefault("Nzc5OTA1NzY5Mzg2MTQ3ODYw.X7nV2Q._BoQ-G92iblNHKclgPgnAI-xGrk");
-		JDA jda = null;
-		jda.addEventListener(new CallBot());
-		//jdabuilder.setActivity(Activity.ActivityType.WATCHING);
-		
-		try
-		{
-			jda = jdabuilder.build();
-		} catch(LoginException e) {
-			e.printStackTrace();
-		}
-		
-		PingPong pingPong = new PingPong();
-		jda.addEventListener(pingPong);
-		try
-		{	
-			jda = ((JDABuilder) jda).build();
-		} catch (LoginException e)
-		{
-			e.printStackTrace();
-		}
-		*/
 	}
 
 }
