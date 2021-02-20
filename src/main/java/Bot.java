@@ -9,8 +9,8 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 public class Bot extends ListenerAdapter{
 
 	public static void main(String[] args) throws LoginException {
-		//Nzc5OTA1NzY5Mzg2MTQ3ODYw.X7nV2Q._BoQ-G92iblNHKclgPgnAI-xGrk
-		JDA jda = new JDABuilder("Nzc5OTA1NzY5Mzg2MTQ3ODYw.X7nV2Q._BoQ-G92iblNHKclgPgnAI-xGrk")
+		
+		JDA jda = new JDABuilder("ADD TOKEN HERE!")
 				.addEventListeners(new Bot())
 				.build();
 		
